@@ -62,8 +62,13 @@
   <ItemGroup>
     <Build Include="Sales_1NF.sql" />
     <Build Include="Customer_2NF.sql" />
-    <Build Include="Products_2NF.sql" />
+    <Build Include="Product_2NF.sql" />
     <Build Include="Sales_2NF.sql" />
+    <Build Include="Customer_3NF.sql" />
+    <Build Include="Product_3NF.sql" />
+    <Build Include="Sales_3NF.sql" />
+    <Build Include="Line_Item_3NF.sql" />
+    <Build Include="vw_Customer.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="C170.refactorlog" />

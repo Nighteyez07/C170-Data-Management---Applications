@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[Customer_2NF]
+﻿CREATE TABLE [dbo].[Customer_3NF]
 (
 	[CustomerId] INT NOT NULL IDENTITY(1,1), 
 	[LastName] NVARCHAR(50) NOT NULL, 
@@ -12,5 +12,5 @@
 	[CustomerHomePhone] NCHAR(10) NULL, 
 	[CustomerMobilePhone] NCHAR(10) NULL, 
 	[CustomerOtherPhone] NCHAR(10) NULL,
-	CONSTRAINT [PK_Customer_2NF] PRIMARY KEY (CustomerId)
+	CONSTRAINT [PK_Customer_3NF] PRIMARY KEY (CustomerId)
 )
