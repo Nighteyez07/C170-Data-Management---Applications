@@ -69,8 +69,12 @@
     <Build Include="Sales_3NF.sql" />
     <Build Include="Line_Item_3NF.sql" />
     <Build Include="vw_Customer.sql" />
+    <Build Include="productNameIndex.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="C170.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="insertRecords.sql" />
   </ItemGroup>
 </Project>
