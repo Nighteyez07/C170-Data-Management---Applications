@@ -3,7 +3,6 @@
 	[CustomerId] INT NOT NULL IDENTITY(1,1), 
 	[LastName] NVARCHAR(50) NOT NULL, 
 	[FirstName] NVARCHAR(50) NOT NULL, 
-	[MiddleName] NVARCHAR(50) NULL, 
 	[Address1] NVARCHAR(250) NOT NULL, 
 	[Address2] NVARCHAR(250) NULL, 
 	[City] NVARCHAR(50) NOT NULL, 
