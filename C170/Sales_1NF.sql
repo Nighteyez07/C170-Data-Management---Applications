@@ -19,5 +19,5 @@
 	[CustomerHomePhone] NCHAR(10) NULL, 
 	[CustomerMobilePhone] NCHAR(10) NULL, 
 	[CustomerOtherPhone] NCHAR(10) NULL,
-	CONSTRAINT [PK_Sales_1NF] PRIMARY KEY ([SaleId])
+	CONSTRAINT [PK_Sales_1NF] PRIMARY KEY ([SaleId],[DonutId])
 )
